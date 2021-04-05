@@ -7,7 +7,7 @@
        <hr>
 
        <div  style="height: 400px">   
-      <p>ini adalah halaman Vaksin</p>    
+      
     </div>
 
 
