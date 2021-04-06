@@ -77,7 +77,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<h1>KAMPANYE PAK BAMBANG!</h1>
 	</div>
 
-	<p class="footer">Pengunjung Saat ini : <b>150</b> | Kemarin : <b>3,872</b> | Minggu ini : <b>9,570</b> | Total : <b>236,986</b></p>
+	<p class="footer">Pengunjung Saat ini : <b>150</b> | Hari ini : <b>3,872</b> | Minggu ini : <b>9,570</b> | Total : <b>236,986</b></p>
 </div>
 
 </body>
