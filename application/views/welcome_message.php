@@ -85,5 +85,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
 
+<footer id="footer-desktop">
+        <div class="container">
+            <div class="row py-3">
+            	<div class="col-md-7" style="padding-top:20px">
+            		<div class="d-lg-flex justify-content-between"></div>
+            	</div>
+                	<div class="col-md-4" style="padding-top:5px">
+				</div>
+			</div>
+
+            <hr>
+            	<div class="d-flex justify-content-between">
+
+                <div>
+					<p class="text-small text-muted">KONTAK INFORMASI</p>
+					<p class="text-small text-muted">POSKO TIM TANGGAP COVID-19</p>
+					<p class="text-small text-muted">Dinas Kesehatan DKI Jakarta</p>
+					<span><img src="https://corona.jakarta.go.id/img/logo/pin.png" alt=""> Jalan Kesehatan No. 10 Jakarta Pusat</span>
+					<br>
+					<span><img src="https://corona.jakarta.go.id/img/logo/phone-black.png" alt=""> 112, 081 112 112 112, atau 081 388 376 955</span>
+					<br>
+					<p class="text-small text-muted">Apabila terjadi gejala terkait COVID-19, harap segera periksa diri Anda.</p>
+                </div>
+
+            </div>
+
+        </div>
+</footer>
+
 </body>
 </html>
