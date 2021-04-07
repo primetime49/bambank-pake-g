@@ -34,18 +34,21 @@
                     text-shadow: 3px 2px rgb(99, 126, 151);
               }
 
+              
                .data{
-                    box-shadow: 5px 5px 5px 5px;
+                    box-shadow: 5px 5px 5px 5px #F4F6F6;
                    border-radius:10px;
                    position:center;
                    width:75%;
+                   margin-top: -200px;
+                   background-color: white;
               }
 
               #title-wording-data{
                    text-align : center;
                    background-color: lightgrey;
                    border-radius:10px;
-                   margin-top:10px;
+                   margin-top:50px;
 
               }
 
