@@ -29,7 +29,7 @@
 
                .jumbo{
                     background-image: url("public/jumbotron-city.jpg");
-                    height: 300px;
+                    height: 500px;
                     color: #faf0f0;
                     text-shadow: 3px 2px rgb(99, 126, 151);
               }
