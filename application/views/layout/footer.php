@@ -1,6 +1,5 @@
 <footer id="footer-desktop">
     <div class="container">
-        <hr>
         <div class="row">
 			<div class="col align-self-start">
 				<p class="text-small text-muted" style="text-align : left">KONTAK INFORMASI</p>
@@ -16,7 +15,6 @@
 				<p style="font-size:10px">Pengunjung Saat ini : <b>150</b> | Hari ini : <b>3,872</b> | Minggu ini : <b>9,570</b> | Total : <b>236,986</b></p>
 			</div>
 		</div>
-
     </div>
      Copyright &copy; <?php echo date('Y'); ?>. Warganet.
 </footer>

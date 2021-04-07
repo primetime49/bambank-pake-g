@@ -34,6 +34,31 @@
                     text-shadow: 3px 2px rgb(99, 126, 151);
               }
 
+               .data{
+                    box-shadow: 5px 5px 5px 5px;
+                   border-radius:10px;
+                   position:center;
+                   width:75%;
+              }
+
+              #title-wording-data{
+                   text-align : center;
+                   background-color: lightgrey;
+                   border-radius:10px;
+                   margin-top:10px;
+
+              }
+
+              .detail-data{
+                   background-color:white;
+                   box-shadow:2px 2px 2px 2px #F4F6F6;
+                   border-radius:10px;
+              }
+              .data-row-2{
+                    margin-top:20px;
+                    margin-bottom:20px;
+              }
+
                footer {
                     margin-top: 20px;
                     color: #999999;
@@ -85,11 +110,10 @@
 	</nav>
 
 	<div class="jumbotron jumbotron-fluid jumbo">
-	
 	</div>
           <!-- Jquery dan Bootsrap JS -->
           <script src="<?= base_url('public/js/jquery.min.js') ?>"></script>
-               <script src="<?= base_url('public/js/bootstrap.min.js') ?>"></script>
+          <script src="<?= base_url('public/js/bootstrap.min.js') ?>"></script>
     </body>
      
     </html>

@@ -11,13 +11,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-<div id="container">
-	<?php $this->load->view('layout/header'); ?>
-</div>
-
-<div>
-	<?php $this->load->view('layout/footer'); ?>
-</div>
-
+<section class="section-header">
+	<div>
+		<?php $this->load->view('layout/header'); ?>
+	</div>
+</section>
+<section class="section-data">
+	<div>
+		<?php $this->load->view('layout/data'); ?>
+	</div>
+</section>
+<section class="section-footer">
+	<hr>
+	<div>
+		<?php $this->load->view('layout/footer'); ?>
+	</div>
+</section>
 </body>
 </html>
