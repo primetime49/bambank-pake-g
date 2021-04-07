@@ -1,154 +1,119 @@
 <!DOCTYPE html>
 <html>
      <head>
-     <title>Tutorial CRUD Codeigniter</title>
-     <style type="text/css">
-          body {
-               width: 50%;
-               margin: 0 auto;
-          }
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          
+          <!-- Bootstrap CSS -->
+          <link rel="stylesheet" href="<?= base_url('public/css/bootstrap.min.css') ?>" />
+          <style type="text/css">
+               body {
+                    width: 95%;
+                    margin: 0 auto;
+               }
 
-          /* Judul Utama */
-          h1.title {
-               text-align: center;
-          }
+               .navbar-brand{
+                    margin-left: 50px;
+                    margin-right: 50px;
+               }
+               .nav-item{
+                    margin-left : 20px;
+                    margin-right: 20px;
+               }
+               .nav-link:link {
+                    color: grey;
+               }
+               .nav-link:hover, .nav-link:active{
+                    background-color : #D1F2EB ;
+               }
 
-          /* Judul Halaman */
-          .header {
-               position: relative;
-               margin-bottom: 20px;
-          }
-          .header:before,
-          .header:after {
-               display: table;
-               content: '';
-          }
-          .header:after {
-               clear: both;
-          }
-          .header .title {
-               float: left;
-          }
-          .header .title h3 {
-               padding: 0;
-               margin: 0;
-          }
-          .header .action {
-               float: right;
-          }
+               .jumbo{
+                    background-image: url("public/jumbotron-city.jpg");
+                    height: 300px;
+                    color: #faf0f0;
+                    text-shadow: 3px 2px rgb(99, 126, 151);
+              }
 
-          /* Tombol */
-          .btn {
-               display: inline-block;
-               padding: 2px 5px;
-               margin-bottom: 0;
-               font-size: 14px;
-               color: #333;
-               text-align: center;
-               vertical-align: middle;
-               cursor: pointer;
-               background-color: #ffffff;
-               -webkit-border-radius: 3px;
-               -webkit-border-radius: 3px;
-               -webkit-border-radius: 3px;
-               background-image: none !important;
-               border: none;
-               text-shadow: none;
-               box-shadow: none;
-               transition: all 0.12s linear 0s !important;
-               font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
-               text-decoration: none;
-          }
-          .btn-default {
-               color: #333;
-               background-color: #fff;
-               border: 1px solid #ccc;
-          }
-          .btn-danger {
-               color: #fff;
-               background-color: #d9534f;
-               border: 1px solid #d43f3a;
-          }
-          .btn-default, .btn-danger {
-               text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
-               -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);
-               box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);
-          }
+               .data{
+                    box-shadow: 5px 5px 5px 5px;
+                   border-radius:10px;
+                   position:center;
+                   width:75%;
+              }
 
-          /* Alert */
-          .alert {
-               border-width: 1px;
-               border-color: #555555;
-               border-style: solid;
-               padding: 10px 15px;
-               margin-bottom: 15px;
-               border-radius: 3px;
-           }
-          .alert.alert-danger {
-               color: #721c24;
-               background-color: #f8d7da;
-               border-color: #f5c6cb;
-           }
-           .alert.alert-success {
-               color: #155724;
-               background-color: #d4edda;
-               border-color: #c3e6cb;
-           }
+              #title-wording-data{
+                   text-align : center;
+                   background-color: lightgrey;
+                   border-radius:10px;
+                   margin-top:10px;
 
-          /* Forms */
-          .form-group {
-               margin-bottom: 20px;
-          }
-          .form-group label {
-               display: block;
-               margin-bottom: 5px;
-          }
-          input[type="text"],
-          input[type="date"],
-          input[type="number"] {
-               box-sizing : border-box;
-               width: 100%;
-               border: 1px solid #cccccc;
-               padding: 10px;
-               border-radius: 3px;
-               display: block;
-          }
+              }
 
-          /* Table */
-          table {
-               width: 100%;
-               border-spacing: 0;
-          }
-          table tr th,
-          table tr td {
-               padding: 5px;
-          }
-          table thead {
-               background-color: #333333;
-          }
-          table thead tr th {
-               color: #ffffff;
-               border-top: 1px solid #000000;
-               border-right: 1px solid #000000;
-               border-bottom: 1px solid #000000;
-               text-align: left;
-          }
-          table thead tr th:first-child {
-               border-left: 1px solid #000000
-          }
-          table tbody tr td {
-               border-bottom: 1px solid #555555;
-               border-right: 1px solid #555555;
-          }
-          table tbody tr td:first-child {
-               border-left: 1px solid #555555;
-          }
-          footer {
-               margin-top: 20px;
-               color: #999999;
-               text-align: center;
-          }
-     </style>
+              .detail-data{
+                   background-color:white;
+                   box-shadow:2px 2px 2px 2px #F4F6F6;
+                   border-radius:10px;
+              }
+              .data-row-2{
+                    margin-top:20px;
+                    margin-bottom:20px;
+              }
+
+               footer {
+                    margin-top: 20px;
+                    color: #999999;
+                    text-align: center;
+               }
+          </style>
      </head>
 <body>
-     <h1 class="title">Tutorial CRUD Codeigniter</h1>
+     <nav class="navbar navbar-expand-lg navbar-dark>
+		<div class="container">
+			<a class="navbar-brand" href="<?= base_url('home') ?>">
+               <img src="<?= base_url('public/logo.png') ?>" alt="Logo" width="50" height="50">
+               </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="<?= base_url('home') ?>">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="<?= base_url('contact') ?>">Peta Sebaran</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="<?= base_url('faqs') ?>">Berita</a>
+					</li>
+                         <li class="nav-item">
+						<a class="nav-link" href="<?= base_url('faqs') ?>">Peraturan</a>
+					</li>
+                         <li class="nav-item">
+						<a class="nav-link" href="<?= base_url('faqs') ?>">Program</a>
+					</li>
+                         <li class="nav-item">
+						<a class="nav-link" href="<?= base_url('vaksin') ?>">Vaksin</a>
+					</li>
+                         <li class="nav-item">
+						<a class="nav-link" href="<?= base_url('faqs') ?>">Rumah Sakit</a>
+					</li>
+                         <li class="nav-item">
+						<a class="nav-link" href="<?= base_url('faqs') ?>">Tes Covid</a>
+					</li>
+                         <li class="nav-item">
+						<a class="nav-link" href="<?= base_url('faqs') ?>">Covid-19</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron jumbotron-fluid jumbo">
+	</div>
+          <!-- Jquery dan Bootsrap JS -->
+          <script src="<?= base_url('public/js/jquery.min.js') ?>"></script>
+          <script src="<?= base_url('public/js/bootstrap.min.js') ?>"></script>
+    </body>
+     
+    </html>
