@@ -1,0 +1,60 @@
+body {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.navbar-brand{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.nav-item{
+  margin-left : 10px;
+  margin-right: 10px;
+}
+.nav-link {
+  color: black;
+}
+.nav-link:hover, .nav-link:active{
+  background-color : #D1F2EB ;
+}
+
+.jumbo{
+  background-image: url("../../public/jumbotron-city.png");
+  height: 500px;
+  color: #faf0f0;
+  text-shadow: 3px 2px rgb(99, 126, 151);
+}
+
+
+.data{
+  box-shadow: 5px 5px 5px 5px #F4F6F6;
+ border-radius:10px;
+ position:center;
+ width:75%;
+ margin-top: -200px;
+ background-color: white;
+}
+
+#title-wording-data{
+ text-align : center;
+ background-color: lightgrey;
+ border-radius:10px;
+ margin-top:50px;
+
+}
+
+.detail-data{
+ background-color:white;
+ box-shadow:2px 2px 2px 2px #F4F6F6;
+ border-radius:10px;
+}
+.data-row-2{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+footer {
+  margin-top: 20px;
+  color: #999999;
+  text-align: center;
+}
