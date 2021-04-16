@@ -14,7 +14,7 @@
           <link rel="stylesheet" href="<?= base_url('public/css/layout.css') ?>">
      </head>
      <body>
-          <nav class="navbar navbar-expand-lg navbar-dark">
+          <nav class="navbar navbar-expand-lg">
                <div class="container">
                     <a class="navbar-brand" href="<?= site_url('') ?>">
                     <img src="<?= base_url('public/logo.png') ?>" alt="Logo" width="50" height="50">
