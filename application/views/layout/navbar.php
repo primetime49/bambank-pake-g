@@ -42,17 +42,14 @@
                               <li class="nav-item">
                                    <a class="nav-link" href="<?= site_url('peraturan') ?>">Program</a>
                               </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="<?= site_url('vaksin') ?>">Vaksin</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="<?= site_url('rumah-sakit') ?>">Rumah Sakit</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="<?= site_url('tes-covid') ?>">Tes Covid</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="<?= site_url('covid19') ?>">Covid-19</a>
+                              <li class="nav-item dropdown">
+                                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Covid-19
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Vaksin</a>
+                                        <a class="dropdown-item" href="#">Rumah Sakit</a>
+                                   </div>
                               </li>
                          </ul>
                     </div>
