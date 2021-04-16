@@ -49,6 +49,8 @@
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#">Vaksin</a>
                                         <a class="dropdown-item" href="#">Rumah Sakit</a>
+                                        <a class="dropdown-item" href="#">Tes Covid-19</a>
+                                        <a class="dropdown-item" href="#">FAQ</a>
                                    </div>
                               </li>
                          </ul>
