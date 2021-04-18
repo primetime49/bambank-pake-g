@@ -25,7 +25,7 @@
 
                     <!-- Manage your page with Navbar-->
                     <div class="collapse navbar-collapse" id="navbarNav">
-                         <ul class="navbar-nav">
+                         <ul class="navbar-nav ml-auto">
                               <!-- Just call name route in routes.php. Example : site_url('name of route')-->
                               <li class="nav-item">
                                    <a class="nav-link" href="<?= site_url('') ?>">Home</a>
@@ -47,7 +47,7 @@
                                         Covid-19
                                    </a>
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Vaksin</a>
+                                        <a class="dropdown-item" href="<?= site_url('vaksin') ?>">Vaksin</a>
                                         <a class="dropdown-item" href="#">Rumah Sakit</a>
                                         <a class="dropdown-item" href="#">Tes Covid-19</a>
                                         <a class="dropdown-item" href="#">FAQ</a>
