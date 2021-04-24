@@ -53,5 +53,16 @@ $route['default_controller'] = 'welcome';
 $route['vaksin'] = 'Welcome/vaksin';
 $route['test'] = 'Welcome/test';
 $route['faq'] = 'Welcome/faq';
+$route['faq_1'] = 'Welcome/faq_1';
+$route['faq_2'] = 'Welcome/faq_2';
+$route['faq_3'] = 'Welcome/faq_3';
+$route['faq_4'] = 'Welcome/faq_4';
+$route['faq_5'] = 'Welcome/faq_5';
+$route['faq_6'] = 'Welcome/faq_6';
+$route['faq_7'] = 'Welcome/faq_7';
+$route['faq_8'] = 'Welcome/faq_8';
+$route['faq_9'] = 'Welcome/faq_9';
+$route['faq_10'] = 'Welcome/faq_10';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
