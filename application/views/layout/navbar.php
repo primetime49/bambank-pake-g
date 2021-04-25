@@ -12,6 +12,10 @@
 
           <!-- Layout CSS. Put your styling code in this file -->
           <link rel="stylesheet" href="<?= base_url('public/css/layout.css') ?>">
+
+          <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      </head>
      <body>
           <nav class="navbar navbar-expand-lg">
@@ -40,7 +44,7 @@
                                    <a class="nav-link" href="<?= site_url('peraturan') ?>">Peraturan</a>
                               </li>
                               <li class="nav-item">
-                                   <a class="nav-link" href="<?= site_url('peraturan') ?>">Program</a>
+                                   <a class="nav-link" href="<?= site_url('program') ?>">Program</a>
                               </li>
                               <li class="nav-item dropdown">
                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
