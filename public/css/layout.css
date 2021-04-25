@@ -35,16 +35,14 @@ body {
   text-shadow: 3px 2px rgb(99, 126, 151);
 }
 
-.jumbo-kampanye{
-  background-image: url("../../public/jumbotron-kampanye.png");
+.jumbo-program{
+  background-image: url("../../public/jumbotron-program.png");
   height: 300px;
   color: #faf0f0;
   text-shadow: 3px 2px rgb(99, 126, 151);
 }
 
-
 .data{
-box-shadow: 5px 5px 5px 5px #F4F6F6;
  border-radius:10px;
  position:center;
  width:90%;
@@ -83,36 +81,4 @@ footer {
   margin-top: 20px;
   color: #999999;
   text-align: center;
-}
-
-
-ul.timeline {
-  list-style-type: none;
-  position: relative;
-}
-ul.timeline:before {
-  content: ' ';
-  background: #d4d9df;
-  display: inline-block;
-  position: absolute;
-  left: 29px;
-  width: 2px;
-  height: 100%;
-  z-index: 400;
-}
-ul.timeline > li {
-  margin: 20px 0;
-  padding-left: 20px;
-}
-ul.timeline > li:before {
-  content: ' ';
-  background: white;
-  display: inline-block;
-  position: absolute;
-  border-radius: 50%;
-  border: 3px solid #22c0e8;
-  left: 20px;
-  width: 20px;
-  height: 20px;
-  z-index: 400;
 }

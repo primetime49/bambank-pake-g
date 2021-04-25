@@ -7,109 +7,64 @@
 </section>
 
 <section class="section-header">
-	<div class="jumbotron jumbotron-fluid jumbo-kampanye">
+	<div class="jumbotron jumbotron-fluid jumbo-program">
+		<h1 style="margin: 50 0 0 100px">Program Bambang, M.T.I</h1>
 	</div>
 </section>
 
 <section>
 <div class="container">
-	<div class="row">
-		<div class="col-md-10" style="margin-top:25px">
-			<h1>Kampanye dan Program Pemerintah</h1>
-			<span>"Vaksin covid-19 yang akan digunakan terbukti aman!" - Jokowi</span>
+	<div class="row justify-content-md-center">
+		<div class="col-md-6" style="margin-top:25px; text-align:center">
+			<img src="<?= base_url('public/profil.png') ?>" style="height:400px; width:400px">	
 		</div>
-		<div class="col-md-2">
-		<img src="<?= base_url('public/satgas.png') ?>" style="height:100px; width:100px">
+		<div class="col-md-6" style="text-align:center; margin-top:150px">
+			<span style="color:blue; text-align:center">The Bambang Campaign Team</span>
+			<h1 style="color:blue; text-align: center">Bambang, M.T.I.</h1>
+			<span style="position: center">Dari Jakarta untuk Jakarta. Hidup Jakarta Selatan Sehat dan Cerdas</span>
 		<div>
 	</div>
 </div>
 </section>
-<hr>
-<section>
-	<div class="container">	
-		<div class="row">
-			<div class="col-md-10" style="margin-top:25px">
-				<h6 style="text-align:right">Anda berada dalam zona aman sesuai lokasi anda di Menteng Dalam, Jakarta Selatan <br> Tetap ikuti protokal kesehatan, termasuk memakai masker</h6>
+
+<section style="margin-top:50px">
+	<div class="container">
+		<div class="row justify-content-md-center">
+			<div class="col-md-8">
+				<h4><b>Bambang, M.T.I</b></h4>
+				<p style="text-align:justify"><b style="color:blue">Bambang, M.T.I.,</b> lulusan Universitas Indonesia dengan predikat Summa Cumlaude. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis hendrerit risus, nec congue leo finibus tincidunt. Pellentesque lobortis mauris quis lorem dignissim, vitae ornare neque condimentum. Quisque sit amet aliquam nibh. Donec congue ante semper ligula tristique, vel aliquet dolor euismod. Vivamus sed ipsum vel turpis commodo interdum. Vivamus eget euismod urna, et posuere risus. Quisque pretium augue ut pellentesque interdum. Curabitur in tempus felis. Duis ex libero, condimentum in nunc vitae, rutrum placerat tellus. Maecenas maximus scelerisque neque, vel vulputate ligula vehicula ut. Cras eu gravida magna.
+				</p>
 			</div>
-			<div class="col-md-2">
-				<img src="<?= base_url('public/check.png') ?>" style="height:75px; width:75px">
-			<div>
-		</div>
-	<div>
-</section>
-
-
-
-<section>
-<div class="container mt-5 mb-5">
-	<div class="row">
-		<div>
-			<p><b>Sortir dari terbaru V</b></p>
-			<ul class="timeline">
-				<li>
-					<a class="float-left">17 Februari 2021</a>
-					<br>
-					<h5>Indonesia Masuki Tahap Kedua Vaksinasi Covid-19</h5>
-					<div class="row">
-						<div class="col-md-2">
-							<img src="<?= base_url('public/kampanye1.png') ?>" style="height:100px; width:150px">
-						</div>
-						<div class="col-md-10">
-							<p>Indonesia mulai memasuki tahap kedua program vaksinasi Covid-19 yang menyasar warga lanjut usia (lansia) di atas 60 tahun dan pekerja publik.
-							vaksinasi ini ditargetkan menyasar 38.513.446 orang yang diharapkan rampung divaksinasi pada Mei 2021.</p>
-						</div>
-					</div>
-				</li>
-				<li>
-					<a class="float-left">13 Januari 2021</a>
-					<br>
-					<h5>Program Vaksinasi COVID-19 Resmi Dimulai</h5>
-					<div class="row">
-						<div class="col-md-2">
-							<img src="<?= base_url('public/kampanye2.png') ?>" style="height:100px; width:150px">
-						</div>
-						<div class="col-md-10">
-							<p>Pelaksanaan vaksinasi COVID-19 dimulai dengan vaksinasi pertama dilakukan pada Presiden RI Joko Widodo, serta sejumlah perwakilan dari berbagai latar belakang seperti tenaga kesehatan, pemuka agama, guru, dan lain-lain</p>
-						</div>
-					</div>
-				</li>
-				<li>
-					<a class="float-left">25 April 2021</a>
-					<br>
-					<h5>Kartu Pra Kerja</h5>
-					<div class="row">
-						<div class="col-md-2">
-							<img src="<?= base_url('public/kampanye3.png') ?>" style="height:100px; width:150px">
-						</div>
-						<div class="col-md-10">
-							<p>Kartu pra-kerja adalah sebuah kartu yang digalangkan dalam rangka program pelatihan dan pembinaan warga negara Indonesia yang belum memiliki keterampilan.
- Awalnya pemerintah mengalokasikan Rp10 triliun. Kini naik menjadi Rp20 triliun. Program ini berlangsung selama 4 bulan.</p>
-						</div>
-					</div>
-				</li>
-				<li>
-					<a class="float-left">31 Maret 2021</a>
-					<br>
-					<h5>Program Kartu Sembako</h5>
-					<div class="row">
-						<div class="col-md-2">
-							<img src="<?= base_url('public/kampanye4.png') ?>" style="height:100px; width:150px">
-						</div>
-						<div class="col-md-10">
-							<p>Di tengah kondisi virus corona, pemerintah kembali menaikkan nilai bantuan Kartu Sembako menjadi Rp2,4 juta/tahun atau Rp200.000 per bulan/keluarga. Bantuan ini akan disalurkan kepada 20 juta keluarga di Indonesia.</p>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<div style="margin: 0 50 0 50%">
-			<a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true" style="border-radius:20px">Tampilkan Selanjutnya V</a>
+			<div class="col-md-4">
+				<p>Program Bambang M.T.I<p>
+				<a href="">Visi dan Misi Bambang, M.T.I</a>
+				<br><a href="">Program 1 Tahun Menjabat</a>
+				<br><a href="">Program 3 Tahun Menjabat</a>
+				<br><a href="">Program 5 Tahun Menjabat</a>
+				<br><a href="">Bambang Pemersatu Jakarta</a>	
+			</div>
 		</div>
 	</div>
-</div>
-
 </section>
 
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8" style="margin-top:25px">
+				<h2 style="color:blue">Hidup itu mudah kenapa harus susah</h2>
+				<span>Bambang, 25 April 2021</span>
+				<br>
+				<img style="margin-top:25px" src="<?= base_url('public/kampanye-news.png') ?>" style="height:400px; width:400px">
+				<br>
+				<span><a href="">Bambang dengan ibu-ibu Pasar Jagakarsa</a></span>
+				<br>
+				<p style="text-align:justify; margin-top:25px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis hendrerit risus, nec congue leo finibus tincidunt. Pellentesque lobortis mauris quis lorem dignissim, vitae ornare neque condimentum. Quisque sit amet aliquam nibh. Donec congue ante semper ligula tristique, vel aliquet dolor euismod. Vivamus sed ipsum vel turpis commodo interdum. Vivamus eget euismod urna, et posuere risus. 
+
+</p>
+			</div>
+		</div>
+	</div>
+</section>
 
 <!-- Reuse section-footer in every page -->
 <section class="section-footer">
