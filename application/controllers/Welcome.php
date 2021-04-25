@@ -25,6 +25,14 @@ class Welcome extends CI_Controller {
 
 	public function vaksin(){
 		$this->load->view('vaksin-page');
+
+	}
+	public function rumah_sakit(){
+		$this->load->view('rumah_sakit');
+	}
+
+		public function berita(){
+		$this->load->view('berita');
 	}
 	
 }
