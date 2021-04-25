@@ -14,7 +14,7 @@
           <link rel="stylesheet" href="<?= base_url('public/css/layout.css') ?>">
      </head>
      <body>
-          <nav class="navbar navbar-expand-lg navbar-dark">
+          <nav class="navbar navbar-expand-lg">
                <div class="container">
                     <a class="navbar-brand" href="<?= site_url('') ?>">
                     <img src="<?= base_url('public/logo.png') ?>" alt="Logo" width="50" height="50">
@@ -25,7 +25,7 @@
 
                     <!-- Manage your page with Navbar-->
                     <div class="collapse navbar-collapse" id="navbarNav">
-                         <ul class="navbar-nav">
+                         <ul class="navbar-nav ml-auto">
                               <!-- Just call name route in routes.php. Example : site_url('name of route')-->
                               <li class="nav-item">
                                    <a class="nav-link" href="<?= site_url('') ?>">Home</a>
@@ -42,17 +42,16 @@
                               <li class="nav-item">
                                    <a class="nav-link" href="<?= site_url('peraturan') ?>">Program</a>
                               </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="<?= site_url('vaksin') ?>">Vaksin</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="<?= site_url('rumah-sakit') ?>">Rumah Sakit</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="<?= site_url('tes-covid') ?>">Tes Covid</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="<?= site_url('covid19') ?>">Covid-19</a>
+                              <li class="nav-item dropdown">
+                                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Covid-19
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="<?= site_url('vaksin') ?>">Vaksin</a>
+                                        <a class="dropdown-item" href="<?= site_url('rumah_sakit') ?>">Rumah Sakit</a>
+                                        <a class="dropdown-item" href="#">Tes Covid-19</a>
+                                        <a class="dropdown-item" href="#">FAQ</a>
+                                   </div>
                               </li>
                          </ul>
                     </div>
