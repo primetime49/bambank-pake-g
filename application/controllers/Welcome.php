@@ -26,5 +26,9 @@ class Welcome extends CI_Controller {
 	public function vaksin(){
 		$this->load->view('vaksin-page');
 	}
+
+	public function program(){
+		$this->load->view('kampanye-page');
+	}
 	
 }

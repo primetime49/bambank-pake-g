@@ -7,6 +7,8 @@ body {
   margin-left: 50px;
   margin-right: 50px;
 }
+
+
 .nav-item{
   margin-left : 10px;
   margin-right: 10px;
@@ -18,19 +20,32 @@ body {
   background-color : #D1F2EB ;
 }
 
+
 .jumbo{
-  background-image: url("../../public/jumbotron-city.png");
+  background-image: url("../../public/jumbotron-dashboard.png");
   height: 500px;
   color: #faf0f0;
   text-shadow: 3px 2px rgb(99, 126, 151);
 }
 
+.jumbo-vaksin{
+  background-image: url("../../public/jumbotron-vaksin.png");
+  height: 500px;
+  color: #faf0f0;
+  text-shadow: 3px 2px rgb(99, 126, 151);
+}
+
+.jumbo-program{
+  background-image: url("../../public/jumbotron-program.png");
+  height: 300px;
+  color: #faf0f0;
+  text-shadow: 3px 2px rgb(99, 126, 151);
+}
 
 .data{
-  box-shadow: 5px 5px 5px 5px #F4F6F6;
  border-radius:10px;
  position:center;
- width:75%;
+ width:90%;
  margin-top: -200px;
  background-color: white;
 }
@@ -51,6 +66,15 @@ body {
 .data-row-2{
   margin-top:20px;
   margin-bottom:20px;
+}
+
+.section-program{
+  background-color:rgba(208, 239, 255, 0.32);border-radius:20px;
+}
+
+.section-news{
+  margin-top:50px;
+  background-color:rgba(208, 239, 255, 0.32);border-radius:20px;
 }
 
 footer {
