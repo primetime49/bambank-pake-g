@@ -65,5 +65,7 @@ $route['faq_9'] = 'Welcome/faq_9';
 $route['faq_10'] = 'Welcome/faq_10';
 
 $route['program'] = 'Welcome/program';
+$route['rumah_sakit'] = 'Welcome/rumah_sakit';
+$route['berita'] = 'Welcome/berita';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
