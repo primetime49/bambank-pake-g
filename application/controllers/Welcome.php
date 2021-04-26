@@ -58,4 +58,8 @@ class Welcome extends CI_Controller {
 	public function faq_10() {
 		$this->load->view('pages/faq_10');
 	}
+
+	public function program() {
+		$this->load->view('kampanye-page');
+	}
 }

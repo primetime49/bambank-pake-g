@@ -64,5 +64,6 @@ $route['faq_8'] = 'Welcome/faq_8';
 $route['faq_9'] = 'Welcome/faq_9';
 $route['faq_10'] = 'Welcome/faq_10';
 
+$route['program'] = 'Welcome/program';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
