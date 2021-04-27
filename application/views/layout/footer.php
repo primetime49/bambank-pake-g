@@ -22,16 +22,16 @@
 
 	<style>
 		.bawah {
-		font-size: 25px;
+		font-size: 20px;
 		font-weight: bold;
-		color: red;
+		color: #D26363;
 		}
 	</style>
 
 	<style>
 		.bawahdua {
 		font-size: 15px;
-		color: red;
+		color: #D26363;
 		}
 	</style>
 	
