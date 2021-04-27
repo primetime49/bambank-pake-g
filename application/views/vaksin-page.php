@@ -77,21 +77,21 @@
       <div class="row justify-content-md-center">
          <div class="col-md-4" style="background-color:#236AB8; margin: 0 5 0 5px; border-radius:10px">
             <h5 style="color:white;margin-top:10px">Tahap 1</h5>
-            <span style="color:white; margin-bottom:10px">Tenaga kesehatan, tenaga penunjang, dan mahasiswa yang menjalani pendidikan profesi Kedokteran</span>
+            <p style="color:white; margin-bottom:15px; text-align:justify">Tenaga kesehatan, tenaga penunjang, dan mahasiswa yang menjalani pendidikan profesi Kedokteran</p>
          </div>
          <div class="col-md-4" style="background-color:#236AB8; margin: 0 5 0 5px; border-radius:10px">
             <h5 style="color:white;margin-top:10px">Tahap 2</h5>
-            <span style="color:white; margin-bottom:10px">Petugas pelayan publik, TNI, Polri, dan pelayan publik lainnya, dan kelompok usia lanjut (>60tahun)</span>
+            <p style="color:white; margin-bottom:15px; text-align:justify">Petugas pelayan publik, TNI, Polri, dan pelayan publik lainnya, dan kelompok usia lanjut (>60tahun)</p>
          </div>
       </div>
       <div class="row justify-content-md-center">
          <div class="col-md-4" style="background-color:#236AB8; margin: 10 5 0 5px; border-radius:10px">
             <h5 style="color:white;margin-top:10px">Tahap 3</h5>
-            <span style="color:white; margin-bottom:10px">Masyarakat rentan dari aspek gespasial, sosial, dan ekonomi</span>
+            <p style="color:white; margin-bottom:15px; text-align:justify">Masyarakat rentan dari aspek gespasial, sosial, dan ekonomi</p>
          </div>
          <div class="col-md-4" style="background-color:#236AB8; margin: 10 5 0 5px; border-radius:10px">
             <h5 style="color:white;margin-top:10px">Tahap 4</h5>
-            <span style="color:white; margin-bottom:10px">Masyarakat dan pelaku perekonomian lainnya dengan pendekatan kluster sesuai dengan ketersediaan vaksin</span>
+            <p style="color:white; margin-bottom:15px; text-align:justify">Masyarakat dan pelaku perekonomian lainnya dengan pendekatan kluster sesuai dengan ketersediaan vaksin</p>
          </div>
       </div>
    </div>
@@ -104,9 +104,9 @@
             <h4 style="text-align:center">Efek Samping Covid-19</h4>
          </div>   
       </div>
-      <div class="row justify-content-lg-center" style="margin-top:25px">
-         <div class="col-md-6">
-				<img src="<?= base_url('public/vaksin4.png') ?>" style="height:400px; width:400px">
+      <div class="row justify-content-lg-center">
+         <div class="col-md-6" style="margin-top:25px">
+				<img src="<?= base_url('public/vaksin4.png') ?>" style="height:350px; width:350px; margin-left: 50px">
 			</div>
          <div class="col-md-6" style="margin-top:50px">
 				<p>
@@ -120,6 +120,7 @@
 			</div>
 		</div>
    </div>
+   
 </section>
 
 <section class="section-place">
@@ -165,6 +166,50 @@
 		</div>
 	</div>
 </section>
+
+<!-- <section class="section-place">
+   <div class="container">
+		<div class="row justify-content-md-center">
+			<div style="margin: 25 0 25 0px">
+            <h4>Daftar Fasilitas Kesehatan Penyedian Vaksinasi Covid-19</h4>
+			</div>
+         <table class="table table-striped">
+            <thead style="text-align:center">
+               <tr>
+                  <th scope="col">No</th>
+                  <th scope="col">Nama Fasilitas Kesehatan</th>
+                  <th scope="col">Tipe</th>
+                  <th scope="col">Alamat</th>
+                  <th scope="col">Lokasi</th>
+               </tr>
+            </thead>
+            <tbody style="text-align:center">
+               <tr>
+                  <th scope="row">1</th>
+                  <td>Rumah Sakit Siloam</td>
+                  <td>Rumah Sakit II</td>
+                  <td>Jalan Garuda Pancasila Jakarta Selatan</td>
+                  <td><a href="https://google.com/">Lihat</a></td>
+               </tr>
+               <tr>
+                  <th scope="row">2</th>
+                  <td>Rumah Sakit Bakti</td>
+                  <td>Rumah Sakit I</td>
+                  <td>Jalan Patimura Jakarta Selatan</td>
+                  <td><a href="https://google.com/">Lihat</a></td>
+               </tr>
+               <tr>
+                  <th scope="row">3</th>
+                  <td>Puskesmas Jakarta Selatan</td>
+                  <td>Puskesmas</td>
+                  <td>Jalan Melon Barat Jakarta Selatan</td>
+                  <td><a href="https://google.com/">Lihat</a></td>
+               </tr>
+            </tbody>
+         </table>
+		</div>
+	</div>
+</section> -->
 
 <!-- Reuse section-footer in every page -->
 <section class="section-footer">
