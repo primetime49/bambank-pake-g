@@ -16,7 +16,7 @@
 <div class="container">
 	<div class="row justify-content-md-center">
 		<div class="col-md-6" style="margin-top:25px; text-align:center">
-			<img src="<?= base_url('public/profil.png') ?>" style="height:400px; width:400px">	
+			<img src="<?= base_url('public/profil.jpeg') ?>" style="height:400px; width:400px">	
 		</div>
 		<div class="col-md-6" style="text-align:center; margin-top:150px">
 			<span style="color:blue; text-align:center">The Bambang Campaign Team</span>
@@ -35,7 +35,10 @@
 				<p style="text-align:justify"><b style="color:blue">Bambang, M.T.I.,</b> lulusan Universitas Indonesia dengan predikat Summa Cumlaude. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis hendrerit risus, nec congue leo finibus tincidunt. Pellentesque lobortis mauris quis lorem dignissim, vitae ornare neque condimentum. Quisque sit amet aliquam nibh. Donec congue ante semper ligula tristique, vel aliquet dolor euismod. Vivamus sed ipsum vel turpis commodo interdum. Vivamus eget euismod urna, et posuere risus. Quisque pretium augue ut pellentesque interdum. Curabitur in tempus felis. Duis ex libero, condimentum in nunc vitae, rutrum placerat tellus. Maecenas maximus scelerisque neque, vel vulputate ligula vehicula ut. Cras eu gravida magna.
 				</p>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-1">
+				<div style="height:250px; width:1px ;background:black"></div>
+			</div>
+			<div class="col-md-3" style="margin-left:-50px">
 				<p>Program Bambang M.T.I<p>
 				<a href="">Visi dan Misi Bambang, M.T.I</a>
 				<br><a href="">Program 1 Tahun Menjabat</a>
@@ -51,10 +54,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8" style="margin-top:25px">
-				<h2 style="color:blue">Hidup itu mudah kenapa harus susah</h2>
-				<span>Bambang, 25 April 2021</span>
+				<div class="row">
+					<div class="col-md-1">
+						<div style="height:75px; width:10px ;background:blue"></div>
+					</div>
+					<div class="col-md-11" style="margin-left:-25px">
+						<h2 style="color:blue">Hidup itu mudah kenapa harus susah</h2>
+						<span>Bambang, 25 April 2021</span>
+					</div>
+				</div>
 				<br>
-				<img style="margin-top:25px" src="<?= base_url('public/kampanye-news.png') ?>" style="height:400px; width:400px">
+				<img style="margin-top:25px" src="<?= base_url('public/kampanye-news.jpeg') ?>" style="height:400px; width:400px">
 				<br>
 				<span><a href="">Bambang dengan ibu-ibu Pasar Jagakarsa</a></span>
 				<br>
