@@ -70,7 +70,7 @@
      <nav class="navbar navbar-expand-lg navbar-dark>
 		<div class="container">
 			<a class="navbar-brand" href="<?= base_url('home') ?>">
-               <img src="<?= base_url('public/logo.png') ?>" alt="Logo" width="50" height="50">
+               <img src="<?= base_url('public/logo5.png') ?>" alt="Logo" width="100" height="100">
                </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -91,15 +91,6 @@
 					</li>
                          <li class="nav-item">
 						<a class="nav-link" href="<?= base_url('faqs') ?>">Program</a>
-					</li>
-                         <li class="nav-item">
-						<a class="nav-link" href="<?= base_url('vaksin') ?>">Vaksin</a>
-					</li>
-                         <li class="nav-item">
-						<a class="nav-link" href="<?= base_url('faqs') ?>">Rumah Sakit</a>
-					</li>
-                         <li class="nav-item">
-						<a class="nav-link" href="<?= base_url('faqs') ?>">Tes Covid</a>
 					</li>
                          <li class="nav-item">
 						<a class="nav-link" href="<?= base_url('faqs') ?>">Covid-19</a>
