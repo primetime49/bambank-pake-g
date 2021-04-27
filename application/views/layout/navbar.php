@@ -17,7 +17,7 @@
           <nav class="navbar navbar-expand-lg">
                <div class="container">
                     <a class="navbar-brand" href="<?= site_url('') ?>">
-                    <img src="<?= base_url('public/logo.png') ?>" alt="Logo" width="50" height="50">
+                    <img src="<?= base_url('public/logo5.png') ?>" alt="Logo" width="70" height="70">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                          <span class="navbar-toggler-icon"></span>
