@@ -24,7 +24,8 @@ cd bambank-pake-g
 ```
 cp sample_config.php application/config/config.php
 ```
-6. Start XAMPP server (apache) and open http://localhost/bambank-pake-g on your browser
+6. Adjust line 26 of application/config/config.php if necessary according to your localhost
+7. Start XAMPP server (apache) and open http://localhost/bambank-pake-g on your browser
 
 ## Public website
 
