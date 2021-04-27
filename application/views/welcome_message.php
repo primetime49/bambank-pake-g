@@ -116,7 +116,7 @@
 				<h1 style="margin-top:25px">Menuju Kota Sejahtera</h1>
 				<h3>Bambank Pake G</h3>
 				<p>Program yang akan membuat sejahtera warga kota Jakarta Selatan Program yang akan membuat sejahtera warga kota Jakarta Selatan Program yang akan membuat sejahtera warga kota Jakarta Selatan Program yang akan membuat sejahtera warga kota Jakarta Selatan</p>
-				<a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true" style="border-radius : 20px">Lebih Lanjut ></a>
+				<a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true" style="border-radius : 20px">SELENGKAPNYA</a>
 			</div>
 			<div class="col-md-6">
 				<img src="<?= base_url('public/profil-program.png') ?>" style="height:500px; width:500px; margin-top=25px">

@@ -53,5 +53,6 @@ $route['default_controller'] = 'welcome';
 $route['vaksin'] = 'Welcome/vaksin';
 $route['rumah_sakit'] = 'Welcome/rumah_sakit';
 $route['berita'] = 'Welcome/berita';
+$route['program'] = 'Welcome/program';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

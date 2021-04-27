@@ -34,5 +34,9 @@ class Welcome extends CI_Controller {
 		public function berita(){
 		$this->load->view('berita');
 	}
+
+	public function program(){
+		$this->load->view('kampanye-page');
+	}
 	
 }
