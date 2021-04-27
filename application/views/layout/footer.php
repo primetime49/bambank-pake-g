@@ -1,4 +1,7 @@
 <head>
+    <!-- Link Sosmed -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 	<style>
 		.center {
 		text-align: center;
@@ -14,6 +17,48 @@
 	<style>
 		.left {
 		text-align: left;
+		}
+	</style>
+
+	<style>
+		.bawah {
+		font-size: 25px;
+		font-weight: bold;
+		color: red;
+		}
+	</style>
+
+	<style>
+		.bawahdua {
+		font-size: 15px;
+		color: red;
+		}
+	</style>
+	
+	<style>
+		.fa {	
+		font-size: 30px;
+		width: 60px;
+		text-align: center;
+		}
+
+		/* Add a hover effect if you want */
+		.fa:hover {
+		opacity: 5;
+		}
+
+		/* Set a specific color for each brand */
+
+		.fa-facebook {
+		color: black;
+		}
+
+		.fa-instagram {
+		color: black;
+		}
+
+		.fa-twitter {
+		color: black;
 		}
 	</style>
 </head>
@@ -56,13 +101,22 @@
 		</div>
     </div>
 
-	<p style="font-size:30px">Layanan Darurat<br></p>
-	<span><img src="https://corona.jakarta.go.id/img/logo/pin.png" alt=""> Jalan Kesehatan No. 10 Jakarta Pusat<br></span>
-	<span><img src="https://corona.jakarta.go.id/img/logo/phone-black.png" alt=""> 112, 0811-1211-2112, atau 0813-8837-6955</span>
+	<div class="right">
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-instagram"></a>
+		<a href="#" class="fa fa-facebook"></a>
+	</div>
+
+	<p class="bawah">Layanan Darurat</p>
+	<div class="bawahdua">
+		<span ><img src="<?= base_url('public/pin.png') ?>" alt="" width="15" height="15"> 112 </span>
+		<span ><img src="<?= base_url('public/pin.png') ?>" alt="" width="15" height="15"> 0811-1211-2112 </span>
+		<span ><img src="<?= base_url('public/pin.png') ?>" alt="" width="15" height="15"> 0813-8837-6955 </span>
+	</div>
 
 	<div class="right">
-				<p style="font-size:10px">Pengunjung Saat ini : <b>150</b> | Hari ini : <b>3,872</b> | Minggu ini : <b>9,570</b> | Total : <b>236,986</b></p>
-			</div>
+		<p style="font-size:10px">Pengunjung Saat ini : <b>150</b> | Hari ini : <b>3,872</b> | Minggu ini : <b>9,570</b> | Total : <b>236,986</b></p>
+	</div>
 
 	<hr>
     <center>Copyright &copy; <?php echo date('Y'); ?>. Warganet.</center>
