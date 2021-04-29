@@ -5,8 +5,8 @@
 </section>
 
 <section class="section-header">
-	<div class="jumbotron jumbotron-fluid jumbo">
-      <h1 style="text-align:left; font-size:50px; margin-left:200px; width:800px; margin-top:150px; float:left">Pertanyaan yang sering ditanyakan terkait Covid-19</h1>
+	<div class="jumbotron jumbotron-fluid jumbo-faq">
+      <h1 style="text-align:left; font-size:50px; margin-left:100px; width:800px; margin-top:20px; float:left">Pertanyaan yang sering ditanyakan terkait Covid-19</h1>
 	</div>
 </section>
 

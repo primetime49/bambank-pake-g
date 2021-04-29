@@ -8,18 +8,18 @@ body {
   margin-right: 50px;
 }
 
-
 .nav-item{
   margin-left : 10px;
   margin-right: 10px;
 }
+
 .nav-link {
   color: black;
 }
+
 .nav-link:hover, .nav-link:active{
   background-color : #D1F2EB ;
 }
-
 
 .jumbo{
   background-image: url("../../public/jumbotron-dashboard.png");
@@ -42,6 +42,14 @@ body {
   text-shadow: 3px 2px rgb(99, 126, 151);
 }
 
+.jumbo-faq{
+  background-image: url("../../public/jumbroton-faq.png");
+  height: 400px;
+  color: #faf0f0;
+  background-color: white !important;
+  text-shadow: 3px 2px rgb(99, 126, 151);
+}
+
 .data{
  border-radius:10px;
  position:center;
@@ -55,7 +63,6 @@ body {
  background-color: lightgrey;
  border-radius:10px;
  margin-top:50px;
-
 }
 
 .detail-data{
