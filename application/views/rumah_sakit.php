@@ -22,25 +22,25 @@
         </div>
         <div class="row justify-content-around data-row-1">
           <div class="col detail-data" style="margin-left: 10px; margin-right: 10px; border:1px solid #DFDFE5;">
-            <h2 style="text-align : center;font-size:24px; margin-top: 10px">Siloam Hospitals</h2>
             <marquee behavior="scroll" direction="left" behavior="alternate" scrollamount="3">
             <img src="https://www.siloamhospitals.com/-/media/Siloam/Images/Slider/Hospital-Jambi/Hospital-Jambi-1.jpg" style="height:200px; font-weight: 10; width:400px; margin-top=25px; margin-bottom: 20px">
             <img src="https://foto.wartaekonomi.co.id/files/arsip_foto_2020_10_02/siloam_142106_small.webp" style="height:200px; font-weight: 10; width:400px; margin-top=25px; margin-bottom: 20px">
             <img src="https://www.siloamhospitals.com/-/media/SHPR.jpeg" style="height:200px; font-weight: 10; width:400px; margin-top=25px; margin-bottom: 20px">
           </marquee>
-
+            <h2 style="text-align : center;font-size:24px; margin-top: 10px">Siloam Hospitals</h2><hr>
             <a href= "https://g.page/siloam-mrccc?share" style="text-align : center; font-family:helvetica; border:1px solid #000; height:30px; font-weight: 20; width:100px; float: left; margin-bottom: 20px; border-radius: 10px; background-color: #2073F3; color: white;">Lokasi</a>
              <a href= "https://www.siloamhospitals.com" style="text-align : center; border:1px solid #000; height:30px; width:150px; font-weight: 20; font-family:helvetica; margin-bottom: 20px; margin-left: 10px; float: left; border-radius: 10px; background-color: #2073F3; color: white;">Website Resmi</a>
             <a ref= 'tel:622129962888' style="text-align : center; border:1px solid #000; font-family:helvetica; height:30px; width:200px; font-weight: 20; margin-left: 10px; float: left; border-radius: 10px; background-color: #2073F3; color: white;">Telepon: +622129962888</a>
           </div>
   
           <div class="col detail-data" style="margin-left: 10px; margin-right: 10px; border:1px solid #DFDFE5;">
-            <h2 style="text-align : center;font-size:24px; margin-top: 10px">Rumah Sakit Pusat Pertamina</h2>
+            
             <marquee behavior="scroll" direction="left" behavior="alternate" scrollamount="3">
             <img src="https://cdn.sindonews.net/dyn/620/content/2019/09/25/170/1442980/rumah-sakit-pertamina-beri-pengobatan-gratis-mahasiswa-korban-demo-di-dpr-6IP-thumb.jpg" style="height:200px; width:400px; margin-top=25px; margin-bottom: 20px">
             <img src="https://www.pertamina.com/Media/Image/post/Resmi-Dibuka,-RSPP-Extension-Dukung-Transisi-New-Normal.jpg" style="height:200px; width:400px; margin-top=25px; margin-bottom: 20px">
             <img src="http://www.rspp.co.id/images/berita/2.JPG" style="height:200px; width:400px; margin-top=25px; margin-bottom: 20px">
           </marquee>
+          <h2 style="text-align : center;font-size:24px; margin-top: 10px">Rumah Sakit Pusat Pertamina</h2><hr>
              <a href= "https://goo.gl/maps/VzRhtkN3ooQueggF9" style="text-align : center; border:1px solid #000; height:30px; width:100px; font-weight: 20; font-family:helvetica; margin-bottom: 20px; float: left; border-radius: 10px; background-color: #2073F3; color: white;">Lokasi</a>
                  <a href= "http://www.rspp.co.id/index.php" style="text-align : center; border:1px solid #000; height:30px; width:150px; font-weight: 20; font-family:helvetica; margin-bottom: 20px; margin-left: 10px; float: left; border-radius: 10px; background-color: #2073F3; color: white;">Website Resmi</a>
             <a ref= 'tel:62217219000' style="text-align : center; border:1px solid #000; height:30px; width:200px; margin-left: 10px; float: left; font-family:helvetica; font-weight: 20;border-radius: 10px; background-color: #2073F3; color: white;">Telepon: +62217219000</a><br>
