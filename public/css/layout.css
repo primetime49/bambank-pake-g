@@ -48,6 +48,9 @@ body {
   color: #faf0f0;
   background-color: white !important;
   text-shadow: 3px 2px rgb(99, 126, 151);
+  background-repeat: no-repeat;
+  background-size: 1500px 575px;
+  margin-bottom: 0 !important;
 }
 
 .data{
