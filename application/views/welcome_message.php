@@ -17,8 +17,8 @@
 	<div class="container data">
 		<div class="row justify-content-md-center">
 			<div class="col-md-6">
-				<div id="title-wording-data">
-					<p>Vaksinasi Covid-19 Jakarta Selatan</p>
+				<div id="title-wording-data" style="background-color: #2073F3; color: white">
+					<p>Vaksinasi Covid-19 Jakarta Selatan 💉</p>
 				</div>
 				<div class="row justify-content-around data-row-1">
 					<div class="col-4 detail-data">
@@ -47,8 +47,8 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<div id="title-wording-data">
-					<p>Kasus Positif Covid-19 Hari Ini</p>
+				<div id="title-wording-data" style="background-color: #2073F3; color: white">
+					<p>Kasus Positif Covid-19 Hari Ini 🌡️</p>
 				</div>
 				<div class="row justify-content-around data-row-1">
 					<div class="col-4 detail-data">
@@ -128,44 +128,81 @@
 <section class="section-news">
 	<div class="container">
 		<div class="row" >
-			<h4 style="margin-top:25px">Kabar Hari Ini</h4>	
+			<h4 style="margin-top:25px; margin-bottom: 40px; text-align: center">Berita Hari Ini 📰</h4>
 		</div>
 		<div class="row justify-content-around data-row-1" style="margin-left: 10px; margin-right: 10px">
           <div class="col detail-data" style="margin-left: 10px; margin-right: 10px; border:1px solid #DFDFE5;">
             
-            <p style="text-align : center;font-size:16px; font-weight: 10;">Selasa, 06 Apr 2021 - 11:12 WIB</p>
             <center>
-            <img src="https://akcdn.detik.net.id/community/media/visual/2021/04/05/aktivis-antimasker-banyuwangi-terpapar-covid-19_43.jpeg?w=700&q=90" style="height:150px; font-weight: 10; width:300px; margin-top=25px; margin-bottom: 20px"></center>
-            <h4 style="text-align : center;font-size:16px; height: 50px; margin-top: 10px; margin-bottom: 30px">Nasib Aktivis Antimasker di Tebet yang Kini Lemah Karena COVID-19</h4><hr>
-            <p id="like2" onclick="myFunction()" style="text-align: center;"> ❤️ 23 | 🔗 12 | 🔖 Bookmark </p>
+            <img src="https://akcdn.detik.net.id/community/media/visual/2021/04/05/aktivis-antimasker-banyuwangi-terpapar-covid-19_43.jpeg" style="height:150px; font-weight: 10; width:300px; margin-top=25px; margin-bottom: 20px; border-radius: 25px; margin-top: 10px"></center>
+            <h3 style="text-align : center;font-size:16px; height: 50px; margin-top: 10px; margin-bottom: 10px">Nasib Aktivis Antimasker di Tebet yang Kini Lemah Karena COVID-19</h3>
+            <p style="text-align : center;font-size:16px; font-weight: 10;">Selasa, 06 Apr 2021 - 11:12 WIB</p><hr>
+            <p id="like2" onclick="myFunction()" style="text-align: center;"> ❤️ 23 | 🔗 12 | 🔖 Bookmark</p>
             <a href= "https://news.detik.com/berita-jawa-timur/d-5521525/nasib-aktivis-antimasker-di-banyuwangi-yang-kini-lemah-karena-covid-19" style="text-align : right; font-family:helvetica; font-weight: 10; float: right; margin-bottom: 20px; border-radius: 25px; margin-left: 25px">Read more at Detik.com ></a>
           
           </div>
-  
-          <div class="col detail-data" style="margin-left: 10px; margin-right: 10px; border:1px solid #DFDFE5;">
-           
-            <p style="text-align : center;font-size:16px; font-weight: 10;">Selasa, 06 Apr 2021 - 10:10 WIB</p>
+
+                    <div class="col detail-data" style="margin-left: 10px; margin-right: 10px; border:1px solid #DFDFE5;">
+        
             <center>
-            <img src="https://asset.kompas.com/crops/hW3icOn9VYatrWCsrtcDnCT5KnY=/0x0:798x532/750x500/data/photo/2021/04/23/608298997337c.jpg" style="height:150px; font-weight: 10; width:300px; margin-top=25px; margin-bottom: 20px"></center>
-             <h4 style="text-align : center;font-size:16px; height: 50px; margin-top: 10px; margin-bottom: 30px">Kekisruhan Kedatangan Ratusan WN India, Masuk Indonesia untuk Hindari Tsunami Covid-19 di Negaranya</h4><hr>
+            <img src="https://asset.kompas.com/crops/hW3icOn9VYatrWCsrtcDnCT5KnY=/0x0:798x532/750x500/data/photo/2021/04/23/608298997337c.jpg" style="height:150px; font-weight: 10; width:300px; margin-top: 10px ; margin-bottom: 20px; border-radius: 25px"></center>
+            <h3 style="text-align : center;font-size:16px; height: 50px; margin-top: 10px; margin-bottom: 10px">Kekisruhan Kedatangan Ratusan WN India, Masuk Indonesia untuk Hindari Tsunami Covid-19 di Negaranya</h3>
+            <p style="text-align : center;font-size:16px; font-weight: 10;">Selasa, 06 Apr 2021 - 10:10 WIB</p><hr>
             <p id="like3" onclick="myFunction2()" style="text-align: center;"> ❤️ 19 | 🔗 8 | 🔖 Bookmark </p>
-            <a href= "https://megapolitan.kompas.com/read/2021/04/24/11122221/kekisruhan-kedatangan-ratusan-wn-india-masuk-indonesia-untuk-hindari?page=all" style="text-align : right; font-family:helvetica; font-weight: 10; float: right; margin-bottom: 20px; border-radius: 25px; margin-left: 25px">Read more at Kompas.com ></a>
+            <a href= "https://megapolitan.kompas.com/read/2021/04/24/11122221/kekisruhan-kedatangan-ratusan-wn-india-masuk-indonesia-untuk-hindari?page=all" style="text-align : right; font-family:helvetica; font-weight: 10; float: right; margin-top: 10px; margin-bottom: 20px; border-radius: 25px; margin-left: 25px">Read more at Kompas.com ></a>
           </div>
-          <div class="col detail-data" style="margin-left: 10px; margin-right: 10px; border:1px solid #DFDFE5;">
-            
-            <p style="text-align : center;font-size:16px; font-weight: 10;">Selasa, 06 Apr 2021 - 07:55 WIB</p>
+  
+          <div class="col detail-data" style="margin-left: 10px; margin-right: 10px; border:1px solid #DFDFE5">
+           
             <center>
-            <img src="https://img.antaranews.com/cache/800x533/2021/04/19/43C93F64-4835-4589-9AF3-D0E1F4B18D08.jpeg" style="height:150px; font-weight: 10; width:300px; margin-top=25px; margin-bottom: 20px"></center>
-            <h4 style="text-align : center;font-size:16px; height: 50px; margin-top: 10px; margin-bottom: 30px">Jepang darurat COVID-19, Indonesia tetap bersiap untuk Olimpiade Tokyo</h4><hr>
-            <p id="like4" onclick="myFunction3()" style="text-align: center;"> ❤️ 16 | 🔗 6 | 🔖 Bookmark </p>
-            <a href= "https://www.antaranews.com/berita/2119170/jepang-darurat-covid-19-indonesia-tetap-bersiap-untuk-olimpiade-tokyo" style="text-align : right; font-family:helvetica; font-weight: 10; float: right; margin-bottom: 20px; border-radius: 25px; margin-left: 25px">Read more at AntaraNews.com ></a>
+            <img src="https://img.antaranews.com/cache/800x533/2021/03/30/antarafoto-simulasi-sekolah-hibrid-300321-adm-2.jpg" style="height:150px; font-weight: 10; width:300px; margin-top:10px ; margin-bottom: 20px; border-radius: 25px"></center>
+             <h4 style="text-align : center;font-size:16px; height: 50px; margin-top: 10px; margin-bottom: 10px; border-radius: 25px">Dinkes Jakarta Utara siagakan personel bantu belajar tatap muka</h4>
+             <p style="text-align : center;font-size:16px; font-weight: 10;">Senin, 06 Apr 2021 09.48 WIB</p><hr>
+            <p id="like5" onclick="myFunction4()" id="like" onclick="myFunction()" style="text-align: center;"> ❤️ 22 | 🔗 11 | 🔖 Bookmark </p>
+            <a href= "https://www.antaranews.com/berita/2084198/dinkes-jakarta-utara-siagakan-personel-bantu-belajar-tatap-muka" style="text-align : right; font-family:helvetica; font-weight: 10; float: right; margin-bottom: 20px; border-radius: 25px; margin-left: 25px">Read more at AntaraNews.com ></a>
+          
           </div>
+      
         </div> 
 		</div><br>
 		<a href="<?= site_url('berita') ?>" class="btn btn-primary btn-md active" role="button" aria-pressed="true" style="border-radius:20px; float: right; margin-right: 80px">Lebih Lanjut ></a><br><br><br>
 	</div>
-</section>
+	<script>
+function myFunction() {
+  var y = document.getElementById("like2");
+  if (y.innerHTML == " ❤️ 23 | 🔗 12 | 🔖 Bookmark") {
+  y.innerHTML=" ❤️ 24 | 🔗 12 | 🔖 Bookmark";
+  y.style.color = "red";
+} else {
+  y.innerHTML=" ❤️ 23 | 🔗 12 | 🔖 Bookmark";
+  y.style.color = "black";
+}
+}
 
+function myFunction2() {
+  var a = document.getElementById("like3");
+  if (a.innerHTML == " ❤️ 19 | 🔗 8 | 🔖 Bookmark "){
+  a.innerHTML=" ❤️ 20 | 🔗 8 | 🔖 Bookmark ";
+  a.style.color = "red";
+} else {
+  a.innerHTML=" ❤️ 19 | 🔗 8 | 🔖 Bookmark ";
+  a.style.color = "black";
+}
+}
+
+function myFunction4() {
+    var c = document.getElementById("like5");
+  if (c.innerHTML == " ❤️ 22 | 🔗 11 | 🔖 Bookmark "){
+  c.innerHTML=" ❤️ 23 | 🔗 11 | 🔖 Bookmark ";
+  c.style.color = "red";
+} else {
+  c.innerHTML=" ❤️ 22 | 🔗 11 | 🔖 Bookmark ";
+  c.style.color = "black";
+ } 
+}
+
+</script>
+</section>
 
 <!-- Reuse section-footer in every page -->
 <section class="section-footer">
