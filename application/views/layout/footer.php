@@ -78,22 +78,19 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link" href="<?= base_url('home') ?>">Home</a>
+							<a class="nav-link" href="<?= site_url('') ?>">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?= base_url('contact') ?>">Peta Sebaran</a>
+							<a class="nav-link" href="<?= site_url('contact') ?>">Peta Sebaran</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?= base_url('faqs') ?>">Berita</a>
+							<a class="nav-link" href="<?= site_url('berita') ?>">Berita</a>
 						</li>
 							<li class="nav-item">
-							<a class="nav-link" href="<?= base_url('faqs') ?>">Peraturan</a>
+							<a class="nav-link" href="<?= site_url('peraturan') ?>">Peraturan</a>
 						</li>
 							<li class="nav-item">
-							<a class="nav-link" href="<?= base_url('faqs') ?>">Program</a>
-						</li>
-							<li class="nav-item">
-							<a class="nav-link" href="<?= base_url('faqs') ?>">Covid-19</a>
+							<a class="nav-link" href="<?= site_url('program') ?>">Program</a>
 						</li>
 					</ul>
 				</div>
