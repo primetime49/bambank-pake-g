@@ -216,12 +216,13 @@
       </div>
    </div>
    <br><br>
-   <div style="text-align : center; height:40px; margin-right: 200px; float: right; font-weight: 600;">
-      <u style="background: #FFFFFF; border: 1px solid #868686; box-sizing: border-box; border-radius: 4px 0px 0px 4px; width: 49px; text-decoration: none;">First</u>
+   <div style="text-align : center; height:40px; margin-right: 200px; float: right; font-weight: 600; cursor: pointer;">
+      <!-- <u style="background: #FFFFFF; border: 1px solid #868686; box-sizing: border-box; border-radius: 4px 0px 0px 4px; width: 49px; text-decoration: none;">First</u>
       <u style="background: #FFFFFF; border: 1px solid #868686; box-sizing: border-box; border-radius: 0px; width: 49px; text-decoration: none;"><<</u>
       <u style="background: #FFFFFF; border: 1px solid #868686; box-sizing: border-box; border-radius: 0px; width: 49px; text-decoration: none;">1</u>
       <u style="background: #FFFFFF; border: 1px solid #868686; box-sizing: border-box; border-radius: 0px; width: 49px; text-decoration: none;">>></u>
-      <u style="background: #FFFFFF; border: 1px solid #868686; box-sizing: border-box; border-radius: 0px 4px 4px 0px; width: 49px; text-decoration: none;">Last</u>
+      <u style="background: #FFFFFF; border: 1px solid #868686; box-sizing: border-box; border-radius: 0px 4px 4px 0px; width: 49px; text-decoration: none;">Last</u> -->
+      <img src="../public/Paging.png" style="font-weight: 10; width: 190px; height: 33px; margin-top: 15px">
    </div>
 </section>
 
