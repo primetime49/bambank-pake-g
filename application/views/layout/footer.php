@@ -99,9 +99,9 @@
     </div>
 
 	<div class="right">
-		<a href="#" class="fa fa-twitter"></a>
-		<a href="#" class="fa fa-instagram"></a>
-		<a href="#" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/anggraityo" class="fa fa-twitter"></a>
+		<a href="https://instagram.com/anggraityo" class="fa fa-instagram"></a>
+		<a href="https://facebook.com/oytida" class="fa fa-facebook"></a>
 	</div>
 
 	<p class="bawah">Layanan Darurat</p>
