@@ -9,8 +9,7 @@
 <section class="section-header">
   <div class="jumbotron jumbotron-fluid jumbo">
     <a href="<?= site_url('') ?>" style="margin-left: 40px; margin-top: -35px; float: left; color: white">Home > Regulasi </a>
-    <h1 style="text-align : left;font-size:50px; width:500px; margin-left: 300px; margin-top: 50px; float: left; color: white">Regulasi untuk COVID-19</h1>
-    <img src="https://th.bing.com/th/id/Rfed25626323608646159e46ae489c87c?rik=FABKq4877lnqHw&riu=http%3a%2f%2ficon-icons.com%2ficons2%2f504%2fPNG%2f512%2fstack-books-magnifier_icon-icons.com_49236.png&ehk=kWX9aFlCSaW2O9CDgcf5KYYHWHpUZKl2v%2bIMFRCghaU%3d&risl=&pid=ImgRaw" style="float: right; height:250px; width:250px; margin-right: 350px; margin-top: -20px">
+  
   </div>
 </section>
 
