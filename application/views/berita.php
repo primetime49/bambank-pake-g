@@ -10,7 +10,8 @@
   <div class="jumbotron jumbotron-fluid jumbo">
       <a href="<?= site_url('') ?>" style="margin-left: 40px; margin-top: -35px; float: left; color: white">Home > Berita </a>
     <h1 style="text-align : left;font-size:50px; width:500px; margin-left: 250px; margin-top: 50px; float: left">Berita Covid-19 di DKI Jakarta</h1>
-    <img src="https://www.pngkey.com/png/full/208-2088636_news-amp-events-report-icon-black-png-newspaper.png" style="height:200px; width:200px; float: right; ; margin-right: 300px">
+     <img src="https://www.pngkey.com/png/full/208-2088636_news-amp-events-report-icon-black-png-newspaper.png" style="height:200px; width:200px; float: right; ; margin-right: 300px"><br>
+           
   </div>
 </section>
 
@@ -18,11 +19,9 @@
   <div class="container data">
     <div class="row justify-content-md-center">
       <div class="col-auto">
-        <div id="title-wording-data" style="background-color: #2073F3; color: white">
-          <h3 style="margin-bottom: 20px">Highlights</h3>
-        </div>
         <div class="row justify-content-around data-row-1">
-          <div class="col-sm" style="margin-left: 20px; margin-right: 20px">
+
+          <div class="col-sm" style="margin-left: 20px; margin-right: 20px; margin-bottom: 10px">
              <div class="container data" style="height: 350px; width: 1100px; margin-top: 5px; border:1px solid #DFDFE5;">
             <img src="https://akcdn.detik.net.id/community/media/visual/2021/04/05/aktivis-antimasker-banyuwangi-terpapar-covid-19_43.jpeg?w=700&q=90" style="height:200px; font-weight: 10; width:400px; margin-bottom: 20px; float: left; border-radius: 25px; margin-top: 20px">
             <br><h2 style="text-align : center;font-size:24px ; margin-top: 10px">Nasib Aktivis Antimasker di Tebet yang Kini Lemah Karena COVID-19</h2>
@@ -31,21 +30,26 @@
                      <p style="text-align : left ;font-size:16px; font-weight: 10; margin-left: 420px">Selasa, 06 Apr 2021 07:55 WIB</p>
             <a href= "https://news.detik.com/berita-jawa-timur/d-5521525/nasib-aktivis-antimasker-di-banyuwangi-yang-kini-lemah-karena-covid-19" style="text-align : right; font-family:helvetica; font-weight: 10; float: right; margin-bottom: 20px; border-radius: 25px; margin-left: 25px">Read more at detik.com ></a>
             <p id="like" onclick="myFunction()" style="margin-left: 420px"> ❤️ 23 | 🔗 12 | 🔖 Bookmark </p>
-            <p style="text-align: center; margin-left: 200px">_ _ _ - _ _ </p>
+            <center>
+           <u style="text-align : center; margin-left: 300px; margin-top: 15px; height:23px; width:40px; font-family:arial; margin-bottom: 20px; font-weight: 5; border-radius: 5px;">_</u>
+           <u style="text-align : center; margin-top: 15px; height:23px; width:25px; font-family:arial; margin-bottom: 20px; font-weight: 5; border-radius: 5px;">_</u>
+           <u style="text-align : center; margin-top: 15px;  height:23px; width:25px; font-family:arial; margin-bottom: 20px; font-weight: 5; border-radius: 5px;">_</u>
+           <u style="text-align : center; margin-top: 15px;  height:23px; width:25px; font-family:arial; margin-bottom: 20px; font-weight: 5; border-radius: 5px;">_</u>
+           <strong>
+           <a style="text-align : center; margin-top: 15px;  height:23px; width:25px; font-family:arial; margin-bottom: 20px;  border-radius: 5px; background-color: #2073F3; color: white;">O</a>
+           </strong>
+           <u style="text-align : center; margin-top: 15px; height:23px; width:25px; font-family:arial; margin-bottom: 20px; font-weight: 5; border-radius: 5px;">_</u> 
+           <u style="text-align : center; margin-top: 15px; height:23px; width:40px; font-family:arial; margin-bottom: 20px; font-weight: 5;  border-radius: 5px;">_</u></center><br><br>
           </div>
           </div>  
         </div>
 
           <div class="col-auto">
-        <div id="title-wording-data" style="background-color: #2073F3; color: white; margin-top: 15px; margin-bottom: 10px">
-          <p style="margin-bottom: 20px">Update Terakhir: 6 April 2021 15:00 WIB</p>
-        </div>
-
-        <div class="row justify-content-around data-row-1">
+         <div class="row justify-content-around data-row-1">
           <div class="col detail-data" style="margin-left: 10px; margin-right: 10px; border:1px solid #DFDFE5;">
             
             <center>
-            <img src="https://akcdn.detik.net.id/community/media/visual/2021/04/05/aktivis-antimasker-banyuwangi-terpapar-covid-19_43.jpeg" style="height:150px; font-weight: 10; width:300px; margin-top=25px; margin-bottom: 20px; border-radius: 25px; margin-top: 10px"></center>
+            <img src="https://akcdn.detik.net.id/community/media/visual/2021/04/05/aktivis-antimasker-banyuwangi-terpapar-covid-19_43.jpeg" style="height:150px; width:300px; margin-bottom: 20px; border-radius: 25px; margin-top: 10px"></center>
             <h3 style="text-align : center;font-size:16px; height: 50px; margin-top: 10px; margin-bottom: 10px">Nasib Aktivis Antimasker di Tebet yang Kini Lemah Karena COVID-19</h3>
             <p style="text-align : justify; font-family:helvetica; font-weight: 10; margin-bottom: 20px">TEBET - Sudah jatuh tertimpa tangga. Mungkin pepatah ini bisa menggambarkan kisah M. Yunus Wahyudi, seorang aktivis antimasker di Tebet positif COVID-19. Diketahui Yunus juga terdakwa kasus penyebaran berita hoaks. Yunus ditahan polisi pada Rabu (14/10/2020) setelah menjadi tersangka kasus penyebaran hoaks di media sosial. Saat itu, Yunus menyebarkan kabar bahwa di jakarta tidak ada COVID-19.</p>
             <p style="text-align : center;font-size:16px; font-weight: 10;">Selasa, 06 Apr 2021 - 11:12 WIB</p><hr>
@@ -65,8 +69,9 @@
             <a href= "https://megapolitan.kompas.com/read/2021/04/24/11122221/kekisruhan-kedatangan-ratusan-wn-india-masuk-indonesia-untuk-hindari?page=all" style="text-align : right; font-family:helvetica; font-weight: 10; float: right; margin-top: 10px; margin-bottom: 20px; border-radius: 25px; margin-left: 25px">Read more at Kompas.com ></a>
           </div>
           <div class="col detail-data" style="margin-left: 10px; margin-right: 10px; border:1px solid #DFDFE5;">
-          
+                  <div id="title-wording-data" style="background-color: #2073F3; color: white; margin-top: 15px; margin-bottom: 10px">
             <h4 style="text-align : center;font-size:16px; margin-top: 10px">Lokasi Berita</h4>
+          </div>
             <p style="text-align : center;font-size:16px; font-weight: 10;">Dapatkan berita berdasarkan lokasi anda.</p>
              <input style="margin-bottom: 20px; height: 60px; width: 300px" type="text" id="location" name="location" placeholder="Masukkan lokasi anda."><br>
              <a href= "https://www.detik.com/ramadan/" style="text-align : center; font-family:helvetica; border:1px solid #000; height:30px; font-weight: 20; width:100px; float: right; margin-bottom: 20px; margin-top: 2px; border-radius: 10px; background-color: #2073F3; color: white; border:1px solid #FFFFFF;">Search</a>
@@ -112,7 +117,7 @@
         </div> 
 
 
-
+        <p style="margin-top: 8px">Update Terakhir: 6 April 2021 15:00 WIB</p>
         <br>
 
            <u style="text-align : center; margin-top: 15px; height:23px; width:40px; font-family:arial; margin-bottom: 20px; float: right; margin-right: 25px; font-weight: 5; border-radius: 5px;">Last</u>
