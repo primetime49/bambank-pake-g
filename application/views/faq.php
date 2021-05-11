@@ -5,75 +5,75 @@
 </section>
 
 <section class="section-header">
-	<div class="jumbotron jumbotron-fluid jumbo">
-      <h1 style="text-align:left; font-size:50px; margin-left:200px; width:800px; margin-top:150px; float:left">Pertanyaan yang sering ditanyakan terkait Covid-19</h1>
+	<div class="jumbotron jumbotron-fluid jumbo-faq">
+      <h1 style="text-align:left; font-size:50px; margin-left:100px; width:800px; margin-top:20px; float:left">Pertanyaan yang sering ditanyakan terkait Covid-19</h1>
 	</div>
 </section>
 
-<section class="section-data">
+<section class="section-data" style="margin-bottom: 200px;">
    <div class="container">
       <div class="row justify-content-lg-center">
          <div class="col-md-4" style="border-right:1px solid; border-right-color:grey;">
 			   <h4 style="margin-top:25px">FAQ (Tanya Jawab)</h4>
             <br>
-            <div>
-               <ins style="color:blue; cursor: pointer;" onClick="faq1()">
+            <div id="faq1" style="background-color:#236AB8; color:white; border-radius: 4px;">
+               <div style="margin-left: 5px; cursor: pointer;" onClick="faq1()">
                   Apakah Coronavirus dan COVID-19?
-               </ins>
+               </div>
             </div>
             <br>
-            <div>
-               <ins style="color:blue; cursor: pointer;" onClick="faq2()">
+            <div id="faq2" style="background-color:white; color:blue; border-radius: 4px;">
+               <div style="margin-left: 5px; cursor: pointer;" onClick="faq2()">
                   Apakah gejala COVID-19?
-               </ins>
+               </div>
             </div>
             <br>
-            <div>
-               <ins style="color:blue; cursor: pointer;" onClick="faq3()">
+            <div id="faq3" style="background-color:white; color:blue; border-radius: 4px;">
+               <div style="margin-left: 5px; cursor: pointer;" onClick="faq3()">
                   Apa itu Kasus Suspek, Probable, dan Konfirmasi?
-               </ins>
+               </div>
             </div>
             <br>
-            <div>
-               <ins style="color:blue; cursor: pointer;" onClick="faq4()">
+            <div id="faq4" style="background-color:white; color:blue; border-radius: 4px;">
+               <div style="margin-left: 5px; cursor: pointer;" onClick="faq4()">
                   Apa saja persyaratan yang diperlukan untuk membuat SKIM?
-               </ins>
+               </div>
             </div>
             <br>
-            <div>
-               <ins style="color:blue; cursor: pointer;" onClick="faq5()">
+            <div id="faq5" style="background-color:white; color:blue; border-radius: 4px;">
+               <div style="margin-left: 5px; cursor: pointer;" onClick="faq5()">
                   Apa yang dimaksud dengan Kontak Erat?
-               </ins>
+               </div>
             </div>
             <br>
-            <div>
-               <ins style="color:blue; cursor: pointer;" onClick="faq6()">
+            <div id="faq6" style="background-color:white; color:blue; border-radius: 4px;">
+               <div style="margin-left: 5px; cursor: pointer;" onClick="faq6()">
                   Apa itu Pelaku Perjalanan, Discarded, Selesai Isolasi, dan Kasus Kematian?
-               </ins>
+               </div>
             </div>
             <br>
-            <div>
-               <ins style="color:blue; cursor: pointer;" onClick="faq7()">
+            <div id="faq7" style="background-color:white; color:blue; border-radius: 4px;">
+               <div style="margin-left: 5px; cursor: pointer;" onClick="faq7()">
                   Seberapa bahaya COVID-19 ini?
-               </ins>
+               </div>
             </div>
             <br>
-            <div>
-               <ins style="color:blue; cursor: pointer;" onClick="faq8()">
+            <div id="faq8" style="background-color:white; color:blue; border-radius: 4px;">
+               <div style="margin-left: 5px; cursor: pointer;" onClick="faq8()">
                   Berapa lama virus ini bertahan di permukaan benda?
-               </ins>
+               </div>
             </div>
             <br>
-            <div>
-               <ins style="color:blue; cursor: pointer;" onClick="faq9()">
+            <div id="faq9" style="background-color:white; color:blue; border-radius: 4px;">
+               <div style="margin-left: 5px; cursor: pointer;" onClick="faq9()">
                   Apakah COVID-19 seperti SARS?
-               </ins>
+               </div>
             </div>
             <br>
-            <div>
-               <ins style="color:blue; cursor: pointer;" onClick="faq10()">
+            <div id="faq10" style="background-color:white; color:blue; border-radius: 4px;">
+               <div style="margin-left: 5px; cursor: pointer;" onClick="faq10()">
                   Apa itu vaksin COVID-19?
-               </ins>
+               </div>
             </div>
 			</div>
          <div class="col-md-8">
@@ -323,6 +323,17 @@
    var i = document.getElementById("ans9");
    var j = document.getElementById("ans10");
 
+   var aa = document.getElementById("faq1");
+   var bb = document.getElementById("faq2");
+   var cc = document.getElementById("faq3");
+   var dd = document.getElementById("faq4");
+   var ee = document.getElementById("faq5");
+   var ff = document.getElementById("faq6");
+   var gg = document.getElementById("faq7");
+   var hh = document.getElementById("faq8");
+   var ii = document.getElementById("faq9");
+   var jj = document.getElementById("faq10");
+
    function faq1() {
       a.style.display = "block";
       b.style.display = "none";
@@ -334,6 +345,27 @@
       h.style.display = "none";
       i.style.display = "none";
       j.style.display = "none";
+
+      aa.style.color = 'white';
+      aa.style.backgroundColor = '#236AB8';
+      bb.style.color = 'blue';
+      bb.style.backgroundColor = 'white';
+      cc.style.color = 'blue';
+      cc.style.backgroundColor = 'white';
+      dd.style.color = 'blue';
+      dd.style.backgroundColor = 'white';
+      ee.style.color = 'blue';
+      ee.style.backgroundColor = 'white';
+      ff.style.color = 'blue';
+      ff.style.backgroundColor = 'white';
+      gg.style.color = 'blue';
+      gg.style.backgroundColor = 'white';
+      hh.style.color = 'blue';
+      hh.style.backgroundColor = 'white';
+      ii.style.color = 'blue';
+      ii.style.backgroundColor = 'white';
+      jj.style.color = 'blue';
+      jj.style.backgroundColor = 'white';
    }
 
    function faq2() {
@@ -347,6 +379,27 @@
       h.style.display = "none";
       i.style.display = "none";
       j.style.display = "none";
+
+      aa.style.color = 'blue';
+      aa.style.backgroundColor = 'white';
+      bb.style.color = 'white';
+      bb.style.backgroundColor = '#236AB8';
+      cc.style.color = 'blue';
+      cc.style.backgroundColor = 'white';
+      dd.style.color = 'blue';
+      dd.style.backgroundColor = 'white';
+      ee.style.color = 'blue';
+      ee.style.backgroundColor = 'white';
+      ff.style.color = 'blue';
+      ff.style.backgroundColor = 'white';
+      gg.style.color = 'blue';
+      gg.style.backgroundColor = 'white';
+      hh.style.color = 'blue';
+      hh.style.backgroundColor = 'white';
+      ii.style.color = 'blue';
+      ii.style.backgroundColor = 'white';
+      jj.style.color = 'blue';
+      jj.style.backgroundColor = 'white';
    }
 
    function faq3() {
@@ -360,6 +413,27 @@
       h.style.display = "none";
       i.style.display = "none";
       j.style.display = "none";
+
+      aa.style.color = 'blue';
+      aa.style.backgroundColor = 'white';
+      bb.style.color = 'blue';
+      bb.style.backgroundColor = 'white';
+      cc.style.color = 'white';
+      cc.style.backgroundColor = '#236AB8';
+      dd.style.color = 'blue';
+      dd.style.backgroundColor = 'white';
+      ee.style.color = 'blue';
+      ee.style.backgroundColor = 'white';
+      ff.style.color = 'blue';
+      ff.style.backgroundColor = 'white';
+      gg.style.color = 'blue';
+      gg.style.backgroundColor = 'white';
+      hh.style.color = 'blue';
+      hh.style.backgroundColor = 'white';
+      ii.style.color = 'blue';
+      ii.style.backgroundColor = 'white';
+      jj.style.color = 'blue';
+      jj.style.backgroundColor = 'white';
    }
    
    function faq4() {
@@ -373,6 +447,27 @@
       h.style.display = "none";
       i.style.display = "none";
       j.style.display = "none";
+
+      aa.style.color = 'blue';
+      aa.style.backgroundColor = 'white';
+      bb.style.color = 'blue';
+      bb.style.backgroundColor = 'white';
+      cc.style.color = 'blue';
+      cc.style.backgroundColor = 'white';
+      dd.style.color = 'white';
+      dd.style.backgroundColor = '#236AB8';
+      ee.style.color = 'blue';
+      ee.style.backgroundColor = 'white';
+      ff.style.color = 'blue';
+      ff.style.backgroundColor = 'white';
+      gg.style.color = 'blue';
+      gg.style.backgroundColor = 'white';
+      hh.style.color = 'blue';
+      hh.style.backgroundColor = 'white';
+      ii.style.color = 'blue';
+      ii.style.backgroundColor = 'white';
+      jj.style.color = 'blue';
+      jj.style.backgroundColor = 'white';
    }
 
    function faq5() {
@@ -386,6 +481,27 @@
       h.style.display = "none";
       i.style.display = "none";
       j.style.display = "none";
+
+      aa.style.color = 'blue';
+      aa.style.backgroundColor = 'white';
+      bb.style.color = 'blue';
+      bb.style.backgroundColor = 'white';
+      cc.style.color = 'blue';
+      cc.style.backgroundColor = 'white';
+      dd.style.color = 'blue';
+      dd.style.backgroundColor = 'white';
+      ee.style.color = 'white';
+      ee.style.backgroundColor = '#236AB8';
+      ff.style.color = 'blue';
+      ff.style.backgroundColor = 'white';
+      gg.style.color = 'blue';
+      gg.style.backgroundColor = 'white';
+      hh.style.color = 'blue';
+      hh.style.backgroundColor = 'white';
+      ii.style.color = 'blue';
+      ii.style.backgroundColor = 'white';
+      jj.style.color = 'blue';
+      jj.style.backgroundColor = 'white';
    }
    
    function faq6() {
@@ -399,6 +515,27 @@
       h.style.display = "none";
       i.style.display = "none";
       j.style.display = "none";
+
+      aa.style.color = 'blue';
+      aa.style.backgroundColor = 'white';
+      bb.style.color = 'blue';
+      bb.style.backgroundColor = 'white';
+      cc.style.color = 'blue';
+      cc.style.backgroundColor = 'white';
+      dd.style.color = 'blue';
+      dd.style.backgroundColor = 'white';
+      ee.style.color = 'blue';
+      ee.style.backgroundColor = 'white';
+      ff.style.color = 'white';
+      ff.style.backgroundColor = '#236AB8';
+      gg.style.color = 'blue';
+      gg.style.backgroundColor = 'white';
+      hh.style.color = 'blue';
+      hh.style.backgroundColor = 'white';
+      ii.style.color = 'blue';
+      ii.style.backgroundColor = 'white';
+      jj.style.color = 'blue';
+      jj.style.backgroundColor = 'white';
    }
 
    function faq7() {
@@ -412,6 +549,27 @@
       h.style.display = "none";
       i.style.display = "none";
       j.style.display = "none";
+
+      aa.style.color = 'blue';
+      aa.style.backgroundColor = 'white';
+      bb.style.color = 'blue';
+      bb.style.backgroundColor = 'white';
+      cc.style.color = 'blue';
+      cc.style.backgroundColor = 'white';
+      dd.style.color = 'blue';
+      dd.style.backgroundColor = 'white';
+      ee.style.color = 'blue';
+      ee.style.backgroundColor = 'white';
+      ff.style.color = 'blue';
+      ff.style.backgroundColor = 'white';
+      gg.style.color = 'white';
+      gg.style.backgroundColor = '#236AB8';
+      hh.style.color = 'blue';
+      hh.style.backgroundColor = 'white';
+      ii.style.color = 'blue';
+      ii.style.backgroundColor = 'white';
+      jj.style.color = 'blue';
+      jj.style.backgroundColor = 'white';
    }
    
    function faq8() {
@@ -425,6 +583,27 @@
       h.style.display = "block";
       i.style.display = "none";
       j.style.display = "none";
+
+      aa.style.color = 'blue';
+      aa.style.backgroundColor = 'white';
+      bb.style.color = 'blue';
+      bb.style.backgroundColor = 'white';
+      cc.style.color = 'blue';
+      cc.style.backgroundColor = 'white';
+      dd.style.color = 'blue';
+      dd.style.backgroundColor = 'white';
+      ee.style.color = 'blue';
+      ee.style.backgroundColor = 'white';
+      ff.style.color = 'blue';
+      ff.style.backgroundColor = 'white';
+      gg.style.color = 'blue';
+      gg.style.backgroundColor = 'white';
+      hh.style.color = 'white';
+      hh.style.backgroundColor = '#236AB8';
+      ii.style.color = 'blue';
+      ii.style.backgroundColor = 'white';
+      jj.style.color = 'blue';
+      jj.style.backgroundColor = 'white';
    }
 
    function faq9() {
@@ -438,6 +617,27 @@
       h.style.display = "none";
       i.style.display = "block";
       j.style.display = "none";
+
+      aa.style.color = 'blue';
+      aa.style.backgroundColor = 'white';
+      bb.style.color = 'blue';
+      bb.style.backgroundColor = 'white';
+      cc.style.color = 'blue';
+      cc.style.backgroundColor = 'white';
+      dd.style.color = 'blue';
+      dd.style.backgroundColor = 'white';
+      ee.style.color = 'blue';
+      ee.style.backgroundColor = 'white';
+      ff.style.color = 'blue';
+      ff.style.backgroundColor = 'white';
+      gg.style.color = 'blue';
+      gg.style.backgroundColor = 'white';
+      hh.style.color = 'blue';
+      hh.style.backgroundColor = 'white';
+      ii.style.color = 'white';
+      ii.style.backgroundColor = '#236AB8';
+      jj.style.color = 'blue';
+      jj.style.backgroundColor = 'white';
    }
 
    function faq10() {
@@ -451,5 +651,26 @@
       h.style.display = "none";
       i.style.display = "none";
       j.style.display = "block";
+
+      aa.style.color = 'blue';
+      aa.style.backgroundColor = 'white';
+      bb.style.color = 'blue';
+      bb.style.backgroundColor = 'white';
+      cc.style.color = 'blue';
+      cc.style.backgroundColor = 'white';
+      dd.style.color = 'blue';
+      dd.style.backgroundColor = 'white';
+      ee.style.color = 'blue';
+      ee.style.backgroundColor = 'white';
+      ff.style.color = 'blue';
+      ff.style.backgroundColor = 'white';
+      gg.style.color = 'blue';
+      gg.style.backgroundColor = 'white';
+      hh.style.color = 'blue';
+      hh.style.backgroundColor = 'white';
+      ii.style.color = 'blue';
+      ii.style.backgroundColor = 'white';
+      jj.style.color = 'white';
+      jj.style.backgroundColor = '#236AB8';
    }
 </script>
