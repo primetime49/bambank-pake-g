@@ -12,7 +12,6 @@
 
           <!-- Layout CSS. Put your styling code in this file -->
           <link rel="stylesheet" href="<?= base_url('public/css/layout.css') ?>">
-          
      </head>
      <body>
           <nav class="navbar navbar-expand-lg">
@@ -41,7 +40,7 @@
                                    <a class="nav-link" href="<?= site_url('peraturan') ?>">Peraturan</a>
                               </li>
                               <li class="nav-item">
-                                   <a class="nav-link" href="<?= site_url('program') ?>">Program</a>
+                                   <a class="nav-link" href="<?= site_url('peraturan') ?>">Program</a>
                               </li>
                               <li class="nav-item dropdown">
                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -49,7 +48,8 @@
                                    </a>
                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="<?= site_url('vaksin') ?>">Vaksin</a>
-                                        <a class="dropdown-item" href="#">Rumah Sakit</a>
+                                        <a class="dropdown-item" href="<?= site_url('rumah_sakit') ?>">Rumah Sakit</a>
+                                        <a class="dropdown-item" href="<?= site_url('regulasi') ?>">Regulasi</a>
                                         <a class="dropdown-item" href="#">Tes Covid-19</a>
                                         <a class="dropdown-item" href="#">FAQ</a>
                                    </div>
