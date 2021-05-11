@@ -30,5 +30,9 @@ class Welcome extends CI_Controller {
 	public function program(){
 		$this->load->view('kampanye-page');
 	}
+
+	public function peta(){
+		$this->load->view('peta-sebaran');
+	}
 	
 }

@@ -12,6 +12,7 @@
 
           <!-- Layout CSS. Put your styling code in this file -->
           <link rel="stylesheet" href="<?= base_url('public/css/layout.css') ?>">
+          
      </head>
      <body>
           <nav class="navbar navbar-expand-lg">
@@ -31,7 +32,7 @@
                                    <a class="nav-link" href="<?= site_url('') ?>">Home</a>
                               </li>
                               <li class="nav-item">
-                                   <a class="nav-link" href="<?= site_url('contact') ?>">Peta Sebaran</a>
+                                   <a class="nav-link" href="<?= site_url('peta') ?>">Peta Sebaran</a>
                               </li>
                               <li class="nav-item">
                                    <a class="nav-link" href="<?= site_url('berita') ?>">Berita</a>

@@ -82,3 +82,161 @@ footer {
   color: #999999;
   text-align: center;
 }
+
+.peta-psg {
+  position: relative;
+  display: inline-block;
+}
+.peta-psg .psg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.peta-psg:hover .psg{
+  display:inline;
+}
+
+.peta-kbl {
+  position: relative;
+  display: inline-block;
+}
+.peta-kbl .kbl {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.peta-kbl:hover .kbl{
+  display:inline;
+}
+
+.peta-kbb {
+  position: relative;
+  display: inline-block;
+}
+.peta-kbb .kbb {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.peta-kbb:hover .kbb{
+  display:inline;
+}
+
+.peta-sbd {
+  position: relative;
+  display: inline-block;
+}
+.peta-sbd .sbd {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.peta-sbd:hover .sbd{
+  display:inline;
+}
+.peta-mpr {
+  position: relative;
+  display: inline-block;
+}
+.peta-mpr .mpr {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.peta-mpr:hover .mpr{
+  display:inline;
+}
+
+.peta-mgr {
+  position: relative;
+  display: inline-block;
+}
+.peta-mgr .mgr {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.peta-mgr:hover .mgr{
+  display:inline;
+}
+.peta-pcr {
+  position: relative;
+  display: inline-block;
+}
+.peta-pcr .pcr {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.peta-pcr:hover .pcr{
+  display:inline;
+}
+
+.peta-cdk {
+  position: relative;
+  display: inline-block;
+}
+.peta-cdk .cdk {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.peta-cdk:hover .cdk{
+  display:inline;
+}
+
+.peta-psm {
+  position: relative;
+  display: inline-block;
+}
+.peta-psm .psm {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.peta-psm:hover .psm{
+  display:inline;
+}
+
+.peta-jgk {
+  position: relative;
+  display: inline-block;
+}
+.peta-jgk .jgk {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.peta-jgk:hover .jgk{
+  display:inline;
+}
