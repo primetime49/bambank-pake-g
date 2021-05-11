@@ -81,13 +81,13 @@
 							<a class="nav-link" href="<?= site_url('') ?>">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?= site_url('contact') ?>">Peta Sebaran</a>
+							<a class="nav-link" href="<?= site_url('peta') ?>">Peta Sebaran</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="<?= site_url('berita') ?>">Berita</a>
 						</li>
 							<li class="nav-item">
-							<a class="nav-link" href="<?= site_url('peraturan') ?>">Peraturan</a>
+							<a class="nav-link" href="<?= site_url('regulasi') ?>">Peraturan</a>
 						</li>
 							<li class="nav-item">
 							<a class="nav-link" href="<?= site_url('program') ?>">Program</a>
