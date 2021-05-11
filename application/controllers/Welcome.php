@@ -27,7 +27,15 @@ class Welcome extends CI_Controller {
 		$this->load->view('faq');
 	}
 
+	public function regulasi(){
+		$this->load->view('regulasi');
+	}
+
 	public function program() {
 		$this->load->view('kampanye-page');
+	}
+
+	public function peta(){
+		$this->load->view('peta-sebaran');
 	}
 }

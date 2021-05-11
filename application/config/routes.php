@@ -53,7 +53,8 @@ $route['default_controller'] = 'welcome';
 $route['vaksin'] = 'Welcome/vaksin';
 $route['test'] = 'Welcome/test';
 $route['faq'] = 'Welcome/faq';
-
+$route['regulasi'] = 'Welcome/regulasi';
+$route['peta'] = 'Welcome/peta';
 $route['program'] = 'Welcome/program';
 $route['rumah_sakit'] = 'Welcome/rumah_sakit';
 $route['berita'] = 'Welcome/berita';
