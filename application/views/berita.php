@@ -8,10 +8,7 @@
 <!-- Only use on Dashboard page -->
 <section class="section-header">
   <div class="jumbotron jumbotron-fluid jumbo">
-      <a href="<?= site_url('') ?>" style="margin-left: 40px; margin-top: -35px; float: left; color: white">Home > Berita </a>
-    <h1 style="text-align : left;font-size:50px; width:500px; margin-left: 250px; margin-top: 50px; float: left">Berita Covid-19 di DKI Jakarta</h1>
-     <img src="https://www.pngkey.com/png/full/208-2088636_news-amp-events-report-icon-black-png-newspaper.png" style="height:200px; width:200px; float: right; ; margin-right: 300px"><br>
-           
+      <a href="<?= site_url('') ?>" style="margin-left: 40px; margin-top: -35px; float: left; color: white">Home > Berita </a>          
   </div>
 </section>
 
