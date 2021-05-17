@@ -8,9 +8,11 @@
 
 <!-- Only use on Dashboard page -->
 <section class="section-header">
+	<center>
 	<div class="jumbotron jumbotron-fluid jumbo">
-		<h1 style="text-align : left;font-size:50px; width:1000px; margin-left: 300px; margin-top: 50px; text-align: center;">Selamat datang di halaman COVID-19 Jakarta</h1>
+		<h1 style="text-align : center;font-size:50px; width:1000px; margin-top: 50px">Selamat datang di halaman COVID-19 Jakarta</h1>
 	</div>
+	</center>
 </section>
 
 <!-- Only use on Dashboard page -->
