@@ -9,7 +9,7 @@
 <section class="section-header">
   <div class="jumbotron jumbotron-fluid jumbo">
     <a href="<?= site_url('') ?>" style="margin-left: 40px; margin-top: -35px; float: left; color: white">Home > Regulasi </a>
-  
+  <h1 style="margin-left: 250px; margin-top: 40px; width: 700px">Peraturan atau Publikasi Seputar COVID-19 di Jakarta Selatan</h1>
   </div>
 </section>
 
